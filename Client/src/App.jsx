@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/home.jsx'
 import './App.css'
 import UserDashboard from './pages/UserDashboard.jsx'
+import AdminDashboard from './pages/AdminDashboard.jsx'
 
 function App() {
 
@@ -22,7 +23,7 @@ function App() {
             <Route path='profile' element= {<h1>My Profile</h1>}/>
             <Route path='logout' element= {<h1>Logout Successfully</h1>}/>
           </Route>
-          <Route path='/admin' element= {<h1>Admin Dashboard</h1>}>
+          <Route path='/admin' element= {<AdminDashboard/>}>
             <Route path='additem' element= {<h1>Add Item</h1>}/>
             <Route path='viewitem' element= {<h1>View Item</h1>}/>
             <Route path='adduser' element= {<h1>Add User</h1>}/>
