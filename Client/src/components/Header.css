@@ -1,0 +1,6 @@
+.header{
+  background-color: grey;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
